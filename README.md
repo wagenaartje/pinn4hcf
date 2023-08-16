@@ -24,5 +24,5 @@ Simply run the `.py` files from the main folder of this repository. It will gene
 torch
 numpy
 skopt
-torch_cgd
+torch-cgd
 ```
