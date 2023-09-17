@@ -12,6 +12,12 @@ Available at https://repository.tudelft.nl/islandora/object/uuid:6fd86786-153e-4
 
 [<img src="https://i.imgur.com/Kybkxak.png" width="200">](https://repository.tudelft.nl/islandora/object/uuid:6fd86786-153e-4c98-b4e2-8fa36f90eb2a)
 
+#### Errata
+
+- Page 13, 'casual' should be 'causal'
+- Page 42, Eq. (4.11) should be `-u sin(θ) + v cos(θ) = 0`
+- Page 45, Eq. (5.1) should be `(-u sin(θ) + v cos(θ)) / (||u|| + ϵ) = 0`
+
 
 ## Source code
 The folders `oblique`, `curved` and `detached` correspond to the problems treated in Chapter 6 respectively. Each folder contains a selection of the models used to generate the figures for each problem, if you would like to request the source code for a missing model, please request it by [creating an issue](https://github.com/wagenaartje/pinn4hcf/issues). Furthermore, each folder includes a `reference` folder that contains the code to generate the reference solution. 
@@ -26,3 +32,16 @@ numpy
 skopt
 torch-cgd
 ```
+
+## How to cite
+
+```
+@mastersthesis{Wagenaar2023,
+  author  = {Wagenaar, Thomas},
+  title   = {Physics-informed neural networks for highly compressible flows: assessing and enhancing shock-capturing capabilities},
+  school  = {Delft University of Technology},
+  year    = 2023,
+  month   = {September}
+}
+```
+
