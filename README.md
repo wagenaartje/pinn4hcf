@@ -8,7 +8,7 @@ While physics-informed neural networks have been shown to accurately solve a wid
 ![image](https://i.imgur.com/fbX3B4d.png)
 
 ### Report
-Availble at https://repository.tudelft.nl/islandora/object/uuid:6fd86786-153e-4c98-b4e2-8fa36f90eb2a. 
+Available at https://repository.tudelft.nl/islandora/object/uuid:6fd86786-153e-4c98-b4e2-8fa36f90eb2a. 
 
 [<img src="https://i.imgur.com/Kybkxak.png" width="200">](https://repository.tudelft.nl/islandora/object/uuid:6fd86786-153e-4c98-b4e2-8fa36f90eb2a)
 
