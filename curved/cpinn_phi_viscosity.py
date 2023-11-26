@@ -354,7 +354,7 @@ if __name__ == '__main__':
     generator = Generator().to(device)
     discriminator = Discriminator().to(device)
     solver = torch_cgd.solvers.GMRES(tol=1e-7, atol=1e-20)
-    optimizer = torch_cgd.ACGD_CG(generator.parameters(), discriminator.parameters(), learning_rate=0.001, solver=solver, eps=1e-8, beta=0.99)
+    optimizer = torch_cgd.ACGD(generator.parameters(), discriminator.parameters(), lr=0.001, solver=solver, eps=1e-8, beta=0.99)
 
     # Prepare logging
     checkpoint_file = open(f'./curved/cpinn_phi_viscosity.p', 'ab')
